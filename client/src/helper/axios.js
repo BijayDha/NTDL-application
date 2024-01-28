@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_BASE_URL = import.meta.env.PROD
-  ? "https://not-to-do-list-application.onrender.com//api/tasks"
+  ? "https://not-to-do-list-application.onrender.com/api/tasks"
   : "http://localhost:8000/api/tasks";
 
 // Frontend CRUD operations here
